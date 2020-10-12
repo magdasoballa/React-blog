@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "React Post",
+      "image" : "https://images.unsplash.com/photo-1504909177259-7a4a3d7e969e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60",
+      "author": "Jason Rivera",
+      "date" : "Dec 6,2019",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?"
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Post",
+      "image" : "https://images.unsplash.com/photo-1449781499120-fbbded86c656?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60",
+      "author": "Jason Rivera",
+      "date" : "Oct 26,2019",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?"
+    },
+    {
+      "id": 3,
+      "title": "CSS Post",
+    "image": "https://images.unsplash.com/photo-1523251343397-9225e4cb6319?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60",
+      "author": "Jason Rivera",
+      "date" : "Sept 9,2019",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?"
+    }
+  ]
+}

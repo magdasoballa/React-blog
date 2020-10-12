@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    line-height: 1.5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+    text-decoration: none;
+    color:white
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.container {
+    max-width: 1200px;
+    padding: 0 16px;
+    margin: auto
 }
 
-.App-link {
-  color: #61dafb;
+.nav {
+    padding: 10px 0;
+    background-color: darkslateblue;
+    color:white
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mount {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)),
+    url("https://images.unsplash.com/photo-1582030502111-889a29c666d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 52px;
 }
+
+.posts{
+    padding: 16px 0;
+}
+
+.post-grid-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+}
+
+.card{
+    border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-info{
+    padding: 20px;
+}
+
+.card-title{
+    font-size: 22px;
+    font-weight:700;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 760px){
+    .posts-grid-container{
+        grid-template-columns: repeat(2,1fr)
+    }
+    .mount{
+        height: 300px;
+        font-size: 44px;
+    }
+}
+
+@media(max-width: 600px){
+    .posts-grid-container{
+        grid-template-columns: repeat(1,1fr)
+    }
+}
+
+
+
+
+
+
+
+
